@@ -1,0 +1,25 @@
+timestamp,speed_kmh,traffic_volume,occupancy,road_segment,illustrative_state
+2026-10-06 09:00,72,22,0.1,Road-A,Free-flow
+2026-10-06 09:05,75,25,0.12,Road-A,Free-flow
+2026-10-06 09:10,70,20,0.09,Road-B,Free-flow
+2026-10-06 09:15,78,28,0.13,Road-B,Free-flow
+2026-10-06 09:20,74,24,0.11,Road-C,Free-flow
+2026-10-06 09:25,48,55,0.32,Road-A,Moderate
+2026-10-06 09:30,52,60,0.35,Road-A,Moderate
+2026-10-06 09:35,45,58,0.3,Road-B,Moderate
+2026-10-06 09:40,50,64,0.37,Road-B,Moderate
+2026-10-06 09:45,47,62,0.34,Road-C,Moderate
+2026-10-06 09:50,20,105,0.72,Road-A,Congested
+2026-10-06 09:55,18,110,0.75,Road-A,Congested
+2026-10-06 10:00,23,98,0.68,Road-B,Congested
+2026-10-06 10:05,16,115,0.78,Road-B,Congested
+2026-10-06 10:10,21,102,0.7,Road-C,Congested
+2026-10-06 10:15,5,25,0.05,Road-A,Incident-like
+2026-10-06 10:20,90,115,0.85,Road-B,Incident-like
+2026-10-06 10:25,,70,0.4,Road-C,Invalid-Missing-Speed
+2026-10-06 10:30,abc,65,0.35,Road-A,Invalid-Text-Speed
+2026-10-06 10:35,45,,0.3,Road-B,Invalid-Missing-Volume
+2026-10-06 10:40,50,unknown,0.32,Road-C,Invalid-Text-Volume
+2026-10-06 10:45,48,60,,Road-A,Invalid-Missing-Occupancy
+2026-10-06 10:50,52,62,high,Road-B,Invalid-Text-Occupancy
+2026-10-06 10:55,,,,Road-C,Invalid-All-Missing
